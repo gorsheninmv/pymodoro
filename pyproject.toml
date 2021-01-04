@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pymodoro"
+version = "0.1.0"
+description = "Pomodoro Timer"
+authors = ["Misha Gorshenin <gorshenin.mv@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+pymodoro = "pymodoro:main"
+tests = "tests:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
