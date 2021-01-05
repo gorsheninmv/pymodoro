@@ -7,12 +7,14 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+pyyaml = "^5.3"
 
 [tool.poetry.dev-dependencies]
 
 [tool.poetry.scripts]
 pymodoro = "pymodoro:main"
-tests = "tests:main"
+tests = "tests:tests"
+unit = "tests:unit"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
