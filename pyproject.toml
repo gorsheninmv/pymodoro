@@ -4,6 +4,11 @@ version = "0.1.0"
 description = "Pomodoro Timer"
 authors = ["Misha Gorshenin <gorshenin.mv@gmail.com>"]
 license = "MIT"
+packages = [
+    { include = "pymodoro" },
+    { include = "tomatonotifier" },
+    { include = "tomatorunner" }
+    ]
 
 [tool.poetry.dependencies]
 python = "^3.9"
