@@ -8,11 +8,13 @@ license = "MIT"
 [tool.poetry.dependencies]
 python = "^3.9"
 pyyaml = "^5.3"
+pyqt5 = "^5.15.0"
 
 [tool.poetry.dev-dependencies]
 
 [tool.poetry.scripts]
 pymodoro = "pymodoro:main"
+notifier = "tomatonotifier:main"
 tests = "tests:tests"
 unit = "tests:unit"
 
